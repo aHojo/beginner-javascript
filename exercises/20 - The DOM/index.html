@@ -10,16 +10,32 @@
 
 <body>
   <div class="items">
-    <p>Hi I'm a item</p>
-    <div>
-      <h2>Sub Div</h2>
+    <div class="item">
+      <img src="https://source.unsplash.com/random/300x300" />
       <p>Hi I'm a item</p>
-
     </div>
-    <img src="https://source.unsplash.com/random/300x300" />
-    <p>Hi I'm a item</p>
-    <p>Hi I'm a item</p>
+    <div class="item item2">
+      <img src="https://source.unsplash.com/random/300x300" />
+      <h2>
+
+        Sub Div
+        <span>I am hidden!</span>
+        <p class="pizzas">This is how many pizzas I ate! 🍕</p>
+      </h2>
+      <p>Hi I'm a item</p>
+    </div>
   </div>
+
+  <p>Hi I'm a item</p>
+  <p>Hi I'm a item</p>
+  </div>
+
+  <script src="the-dom.js"></script>
+  <style>
+    h2 span {
+      display: none;
+    }
+  </style>
 </body>
 
 </html>
